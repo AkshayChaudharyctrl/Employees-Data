@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employees Data</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="first">
+        <h1>New Employees </h1><br>
+        <form>
+            <div class="second">
+                <div class="data">
+                    <span class="details">Enter Name</span>
+                    <input type="text" id="name" name="name" />
+
+                </div>
+                <div class="data">
+                    <span class="details">Enter Profession</span>
+                    <input type="text" id="profession" name="profession" />
+
+                </div>
+                <div class="data">
+
+                    <span class="details">Enter Age</span>
+                    <input type="number" id="age" name="age" />
+                </div>
+            </div>
+
+            <button type="submit" id="Btn">Add Users</button>
+        </form>
+
+
+        <div class="error" id="error"></div>
+        <div class="success" id="success"></div>
+        <h2>Added Employees</h2>
+
+        <div id="new-div">You have 0 Employees.</div>
+        <div id="alreadyAdded">You have 0 Employees.</div>
+
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
